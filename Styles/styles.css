@@ -1,0 +1,149 @@
+*{font-family: 'Mulish', sans-serif;}
+
+body {
+    margin: 61px 125px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 125px;
+}
+
+.nav-container {
+    margin: 20px 20px 20px;
+    display: flex;
+    max-width: 1109px;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #111111;
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.highlight-blue {
+    color: #4A4FF2;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-cont {
+    display: grid;
+    height: 100%;
+    grid-gap: 1rem;
+}
+
+.box1 {
+    grid-template-rows: 1.3fr 1.5fr 1.5fr 1.5fr;
+  }
+
+.box2 {
+    grid-template-rows: 1fr 1.3fr 1.5fr 1.7fr;
+  }
+
+.box3 {
+    grid-template-rows: 2fr 1.3fr 1.5fr 1.2fr;
+  }
+
+
+.quote {
+    display: flex;
+    justify-content: flex-end;
+    color: #979797;
+}
+
+.large-p {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    max-width: 60%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.end {
+    justify-self: end;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.grey {
+    color: #979797;
+}
+
+.lg-text {
+    font-size: 22px;
+}
+
+
+ul {
+    color: #979797;
+    font-size: 18px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+hr {
+    background-color: #979797;
+    width: 83vw;
+    height: 2px;
+    opacity: 0.5;
+}
