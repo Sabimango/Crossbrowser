@@ -52,6 +52,41 @@ nav ul {
     color: #4A4FF2;
 }
 
+.introduction {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 144px;
+}
+
+.intro {
+    max-width: 635px;
+    min-height: 251px;
+}
+
+.intro-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.intro-text {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.intro-quote {
+    align-self: flex-end;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.quote-span {
+    text-decoration: overline;
+}
+
+
 .grid-container{
     display: grid;
     grid-gap: 1rem;
