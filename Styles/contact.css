@@ -13,6 +13,16 @@ main {
     flex-direction: column;
 }
 
+ul {
+    color: #979797;
+    font-size: 18px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
 .nav-container {
     margin: 20px 20px 20px;
     display: flex;
@@ -87,14 +97,4 @@ a {
 .form-text-paragraph {
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
-}
-
-ul {
-    color: #979797;
-    font-size: 18px;
-    list-style: none;
-}
-
-li {
-    margin-bottom: 8px;
 }

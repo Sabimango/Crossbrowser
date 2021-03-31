@@ -1,0 +1,106 @@
+*{font-family: 'Mulish', sans-serif;}
+
+body {
+    padding: 30px 50px 30px 50px;
+    margin: 61px 125px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    color: #979797;
+    font-size: 18px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.nav-container {
+    margin: 20px 20px 20px;
+    display: flex;
+    max-width: 1109px;
+    justify-content: space-between;
+}
+
+.project-section {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 285px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+
+.project-box {
+    max-width: 635px;
+    width: 100%;
+}
+
+.title {
+    max-width: 495px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.project-text {
+    color: black
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.details-box {
+    max-width: 335px;
+    display: flex;
+    flex-flow: column;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.detail-sub-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: solid 1px black
+}
+
+.detail {
+    font-size: 18px;
+}
+
+.detail-title {
+    color: black
+}
+
+.projects-girl {
+    max-width: 1110px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.projects-girl-text {
+    margin-bottom: 45px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.projects-img {
+    max-width: 1110px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.projects-grid {
+    max-width: 350px;
+}
